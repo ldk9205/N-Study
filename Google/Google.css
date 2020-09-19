@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#main_theme{
+    width: 100%;
+    height: 937px;
+    background-color: black;
+}
+
+#contents{
+    width: 100%;
+    height: 624px;
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 64px;
+}
+
+#banner{
+    padding: 8px;
+    width: 100% - 16px;
+    height: 48px;
+    display: flex;
+}
+
+.space{
+    padding-right: 30px;
+    width: 1077.97px;
+    height: 48px;
+}
+
+.user_contents{
+    width: 207.031px;
+    height: 48px;
+}
+
+#center{
+    width: 100%;
+    height: 560px;
+}
+
+.logo{
+    padding-top: 97px;
+    width: 100%;
+    height: 133px;
+}
+
+.search_banner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 561px;
+    height: 44px;
+}
+
+#in_txt{
+    width: 100% - 44px;
+    height: 42px;
+    padding: 1px 44px 1px 44px;
+    border-radius: 44px;
+    background-color: white;
+}
+
+#s_txt{
+    width: 100%;
+    height: 36px;
+    border-color: white;
+}
+
+.bookmark{
+    margin-top: 22px;
+    width: 100%-22px;
+    height: 280px;
+}
+
+.most_visit{
+    width: 573px;
+    height: 266px;
+    margin-left: auto;
+    margin-right: auto;
+}
