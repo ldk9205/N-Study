@@ -4,82 +4,152 @@ body{
     padding: 0px;
 }
 
-#main_theme{
+.main{
+    display: block;
     width: 100%;
     height: 937px;
     background-color: black;
 }
 
-#contents{
-    width: 100%;
-    height: 624px;
-}
-
-#top{
-    display: flex;
-    width: 100%;
-    height: 64px;
-}
-
-#banner{
+.header{
     padding: 8px;
     width: 100% - 16px;
     height: 48px;
+}
+
+.account{
+    display: flex;
+    width: 207px;
+    height: 100%;
+    padding: 0 4px 0 30px;
+    float: right;
+}
+
+.item_txt{
+    display: flex;
+    padding-right: 15px;
+}
+
+.My_item1{
+    padding-top: 10px;
+    padding-left: 14px;
+}
+.My_item1 a{
+    color: white;
+    font-size: small;
+}
+
+.item_icon{
     display: flex;
 }
-
-.space{
-    padding-right: 30px;
-    width: 1077.97px;
-    height: 48px;
+.item_icon img{
+    width: auto;
+    height: auto;
+    max-width: 48px;
+    max-height: 48px;
 }
 
-.user_contents{
-    width: 207.031px;
-    height: 48px;
+.MI2{
+    margin: 10px 0 0 8px;
 }
 
-#center{
-    width: 100%;
-    height: 560px;
+.My_item2{
+    width: 42px;
+}
+
+.My_item3{
+    padding: 4px 2px 4px 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
 }
 
 .logo{
     padding-top: 97px;
     width: 100%;
-    height: 133px;
+    height: 141px;
 }
 
-.search_banner{
+.logo_img{
+    width: 272px;
+    height: 92px;
+    margin: auto auto 0 auto;
+}
+.search{
+    display: block;
+    width: 517px;
+    height: 44px;
     margin-left: auto;
     margin-right: auto;
-    width: 561px;
+    border-radius: 44px;
+    padding: 0 22px;
+    background-color: white;
+}
+.s_banner{
+    display: flex;
+    width: 100%;
     height: 44px;
 }
 
-#in_txt{
-    width: 100% - 44px;
-    height: 42px;
-    padding: 1px 44px 1px 44px;
-    border-radius: 44px;
-    background-color: white;
+.s_icon{
+    width: 24px;
+    height: 44px;
 }
 
-#s_txt{
+.s_input{
+    width: 469px;
+    height: 44px;
+}
+.s_txt{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 469px;
+    height: 44px;
+}
+
+.My_visit{
+    margin-top: 32px;
     width: 100%;
-    height: 36px;
-    border-color: white;
-}
-
-.bookmark{
-    margin-top: 22px;
-    width: 100%-22px;
-    height: 280px;
-}
-
-.most_visit{
-    width: 573px;
     height: 266px;
+}
+
+.visit_site{
+    padding-left: 6px;
+    display: flex;
+    width: 567px;
+    height: 128px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.site{
+    width:112px;
+
+    
+    height:100%;
+    border-radius: 10px;
+}
+
+.site_icon{
+    margin : 16px auto;
+    width: 48px;
+    height: 48px;
+}
+.site_icon img{
+    width: auto;
+    height: auto;
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 48px;
+}
+
+.site_txt{
+    width: 100%;
+    height: 24px;
+    text-align: center;
+}
+
+.site_txt span{
+    color: white;
 }

@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main{
+    display: block;
+    height: 937px;
+    background-image: url("./world championship.jpeg");
+    background-size: 100% 937px;
+}
+
+.Year{
+    font-size: 200pt;
+    font-weight: bold;
+    color: #eae6e2;
+}
+
+.Champion1 .Skin_illust{
+    width: 57%;
+    position: relative;
+    left: 43%;
+    bottom: 150px;
+}
+
+.Champion1 .Skin_illust img{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.Champion1 .Skin_list{
+    position: absolute;
+    font-size: 30pt;
+    color: #eae6e2;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0 20px;
+    left: 100px;
+    bottom: 50px;
+}
+
+.Champion2 .Year{
+    text-align: right;
+}
+
+.Champion2 .Skin_illust{
+    width: 57%;
+    position: relative;
+    bottom: 150px;
+}
+
+.Champion2 .Skin_illust img{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.Champion2 .Skin_list{
+    float: right;
+    position: relative;
+    font-size: 30pt;
+    color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0 20px;
+    right: 20%;
+    bottom: 400px;
+}
+
+.logo{
+    position: absolute;
+    width:200px;
+    height: 200px;
+}
+
+.Champion1 .logo{
+    right: 80%;
+    top: 70%;
+}
+
+.Champion2 .logo{
+    left: 130%;
+    top: 10%;
+}
